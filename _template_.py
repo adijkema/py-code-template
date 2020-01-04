@@ -12,8 +12,8 @@
 # ---- [ INITIALIZE & IMPORTS ] ----------------------------------------------------------
 __author__ = 'Your Name'
 from os import system
-system('clear')                     # clear screen before output
-from time import time, localtime, perf_counter, asctime
+system('clear')                             # clear screen before output
+from time import time, localtime, perf_counter, asctime     # import only what is needed
 
 def decorator_main(func):
     def wrap():
