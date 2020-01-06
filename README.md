@@ -7,7 +7,7 @@ Python beginners and mediors who want to have a template for 10 < code lines < 2
 
 **Purpose:**   
 Give your code a headstart  
-Makes it comfortable to add functions to use before and after execution of your code.  
+Makes it comfortable to add functions to use before and after execution of your core code.  
 Functions like error checking, logging, time functions, process costs, print formating.
   
 **version 1.1**  
