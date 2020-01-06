@@ -11,12 +11,17 @@
 
 # ---- [ INITIALIZE & IMPORTS ] ----------------------------------------------------------
 __author__ = 'Your Name'
+__pyversion__ = '3.1.0'
 from os import system
 system('clear')                             # clear screen before output
 from time import time, localtime, perf_counter, asctime     # import only what is needed
+from sys import version_info
+    
 
 def decorator_main(func):
     def wrap():
+        if ".".join(map(str, version_info[:3])) < __pyversion__:
+            print(f'Use Python vs {__pyversion__} for best result')
         starttime = perf_counter()
         print(f'[ Code made by: {__author__:<20}                   {asctime(localtime(time()))} ]')
         print(f'{"":-<81}\n\n')
