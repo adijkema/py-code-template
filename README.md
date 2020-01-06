@@ -1,8 +1,7 @@
 # py-code-template
 Standardize python coding by using a template  
 --
-Especially for Python beginners and mediors who want to have a template  
-when composing short scripts (10 < code lines < 100)
+Especially for Python beginners and mediors who want to have a template for 10 < code lines < 100
 
 *Purpose:   
 Start your code with a template.  
