@@ -1,5 +1,6 @@
 # py-code-template
 Standardize python coding by using a template  
+Python version >= 3.7
   
 **Target audience**  
 Python beginners and mediors who want to have a template for 10 < code lines < 250
