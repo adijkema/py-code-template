@@ -11,9 +11,9 @@
 
 # ---- [ INITIALIZE & IMPORTS ] ----------------------------------------------------------
 __author__ = 'Your Name'
-__pyversion__ = '3.1.0'
+__pyversion__ = '3.7.0'
 from os import system
-system('clear')                             # clear screen before output
+system('clear')                                             # clear screen before output
 from time import time, localtime, perf_counter, asctime     # import only what is needed
 from sys import version_info
     
@@ -39,7 +39,15 @@ def decorator_main(func):
 
 
 # ---- [ CLASSES ] -----------------------------------------------------------------------------
+# Use a dataclass (Python >= version 3.7) to simplify making classes. 
+# And use them within functions to return >= 3 values
+from dataclasses import dataclass
 
+@dataclass                          
+class Result:
+    item1: str
+    item2: str
+    item3: bool
 
 # ---- [ FUNCTIONS ] ---------------------------------------------------------------------------
 # EXAMPLE FUNCTIONS, TO BE DELETED
